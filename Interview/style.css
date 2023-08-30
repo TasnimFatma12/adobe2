@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
+
 .main {
-    margin-left: 80px;
-    margin-right: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+    
 }
  .logo{
     text-align: center;
@@ -114,3 +118,132 @@
   .nav-item {
     margin: 0px 20px;
   }
+
+  /* Section 2 */
+
+  .next {
+    background-color: #F9FBFC;
+    width: 100vw;
+  }
+
+  .card {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 19px;
+    border: none;
+  }
+
+  .nextcards {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 80px;
+    align-items: center;
+  }
+
+  .nextcards .card .card-body .card-title {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .card-text {
+    padding: 0px 10px;
+    font-size: 16px;
+    color: black;
+  }
+
+  .nextHeading {
+    z-index: 1;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 50px;
+  }
+
+
+  /* section3 */
+  .bg2img {
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .card-img-top {
+    height: 13rem;
+    width: 18rem;
+  }
+  
+  .sec3cards .card{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+  }
+
+  .sec3cards {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 80px;
+    align-items: center;
+  }
+
+  .sec3cards .card .card-body .card-title {
+
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .sec3cards .card .card-body .card-text {
+    padding: 0;
+    margin-top: 15px;
+  }
+
+  .sec3cards .card .card-body {
+    margin-top: 15px;
+    padding: 0;
+  }
+
+/* page4 */
+
+.three{
+  background: #1493E7;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 33px;
+  opacity: 1;
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.first2 img{
+  position: relative;
+  top: 20px;
+  right: 10px;
+}
+.first2 h1{
+  font-size: 27px;
+}
+.first2 p{
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.iteml {
+  float: left;
+  width: 100%;
+  padding-left: 150px;
+}
+
+.itemr {
+  float: right;
+  padding-right: 150px;
+
+}
